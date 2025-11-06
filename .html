@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WanderLuxe Travels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav class="navbar">
+    <div class="logo">WanderLuxe</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#explore">Explore</a></li>
+      <li><a href="#bookings">Bookings</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </nav>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Discover the World with WanderLuxe</h1>
+      <p>Your journey begins here. Find your next dream destination.</p>
+      <button class="btn">Start Exploring</button>
+    </div>
+  </section>
+  <section id="explore" class="explore">
+    <h2>Popular Destinations</h2>
+    <div class="destinations">
+      <div class="card">
+        <img src="C:\Users\ADGP CTRS\Downloads\undefined.jpg" alt="Maldives">
+        <h3>Maldives</h3>
+        <p>Crystal clear waters and luxury resorts await.</p>
+      </div>
+      <div class="card">
+        <img src="C:\Users\ADGP CTRS\Downloads\patis.jpg"alt="Paris">
+        <h3>Paris</h3>
+        <p>The city of endless nights.</p>
+      </div>
+      <div class="card">
+        <img src="C:\Users\ADGP CTRS\Downloads\jp.jpg" alt="Japan">
+        <h3>Japan</h3>
+        <p>Where tradition meets technology in harmony.</p>
+      </div>
+    </div>
+  </section>
+  <section id="bookings" class="bookings">
+    <h2>Book Your Trip</h2>
+    <form class="booking-form">
+      <input type="text" placeholder="Destination" required>
+      <input type="date" required>
+      <input type="number" placeholder="No. of Travelers" min="10" required>
+      <button type="submit" class="btn">Book Now</button>
+    </form>
+  </section>
+
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to our team anytime.</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+ 
+  <footer>
+    <p>© 2025 WanderLuxe Travels | Designed by Priyanka Nagaraj
+    
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
